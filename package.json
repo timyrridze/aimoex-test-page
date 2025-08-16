@@ -2,7 +2,7 @@
   "name": "aimoex-test-page",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://timyrridze.github.io/aimoex-test-page/results",
+  "homepage": "https://timyrridze.github.io/aimoex-test-page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
