@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+}
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  flex-grow: 1;
+
+  padding: 20px;
+
+  background: #f7f7f7;
+}
+
+@media (width >= 2900px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media (3000px > width >= 2700px) {
+  html {
+    font-size: 39px;
+  }
+}
+
+@media (2700px > width >= 2160px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media (2160px > width >= 1920px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media (1920px > width >= 1300px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media (width < 1000px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (width < 700px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (width < 400px) {
+  html {
+    font-size: 13px;
+  }
+}
