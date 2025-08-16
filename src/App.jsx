@@ -15,11 +15,11 @@ function App() {
 
       <div className='container'>
         <Routes>
-          <Route path='/profile' element={<Profile />}></Route>
-          <Route path='/results' element={<Results/>}></Route>
-          <Route path='/last-tests' element={<LastTests />}></Route>
-          <Route path='/achievements' element={<Achievements />}></Route>
-          <Route path='/my-plan' element={<MyPlan />}></Route>
+          <Route path='/aimoex-test-page/profile' element={<Profile />}></Route>
+          <Route path='/aimoex-test-page/results' element={<Results/>}></Route>
+          <Route path='/aimoex-test-page/last-tests' element={<LastTests />}></Route>
+          <Route path='/aimoex-test-page/achievements' element={<Achievements />}></Route>
+          <Route path='/aimoex-test-page/my-plan' element={<MyPlan />}></Route>
         </Routes>
       </div>
     </>
